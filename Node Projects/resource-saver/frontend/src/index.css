@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.ql-editor {
+    min-height: 250px;
+}
+
+#root {
+    height: 100vh;
+    background-color: #12181B;
+}
+
+.ck-editor__editable_inline {
+    min-height: 200px !important;
+}
+
+
+
+.my-editor blockquote{
+    background-color: #151b25;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.my-editor h1{
+    margin: 0.5rem 0;
+    font-size: 32px;
+}
+
+.my-editor h2{
+    margin: 0.5rem 0;
+    font-size: 24px;
+}
+
+.my-editor a{
+    text-decoration: underline
+}

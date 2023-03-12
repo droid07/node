@@ -1,0 +1,1 @@
+so this is awesome, node has an inbuilt promise based stuff 🔥
